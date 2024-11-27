@@ -1,0 +1,28 @@
+PODS:
+  - HiLog (1.0.0):
+    - HiLog/Core (= 1.0.0)
+    - HiLog/SwiftyBeaver (= 1.0.0)
+  - HiLog/Core (1.0.0)
+  - HiLog/SwiftyBeaver (1.0.0):
+    - HiLog/Core
+    - SwiftyBeaver (~> 2.0)
+  - SwiftyBeaver (2.1.1)
+
+DEPENDENCIES:
+  - HiLog (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SwiftyBeaver
+
+EXTERNAL SOURCES:
+  HiLog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HiLog: 39ea2b4101cb6def7932cac019312e6dd6579cac
+  SwiftyBeaver: ade157e4f857812e7d7f15f2e3396bb8733f8a1c
+
+PODFILE CHECKSUM: c16db72788d9c6d998051d32662274dc4adf9ddf
+
+COCOAPODS: 1.16.2
