@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = 'HiLog'
-  s.version          = '1.0.0'
-  s.summary          = 'Logger system layer.'
+  s.version          = '1.0.1'
+  s.summary          = 'Logger abstraction layer'
   s.description      = <<-DESC
-						Logger system layer using Swift.
+						Logger abstraction layer for Swift.
                        DESC
   s.homepage         = 'https://github.com/tospery/HiLog'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
