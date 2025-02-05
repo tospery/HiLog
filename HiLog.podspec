@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HiLog'
-  s.version          = '1.0.1'
+  s.version          = '1.1.0'
   s.summary          = 'Logger abstraction layer'
   s.description      = <<-DESC
 						Logger abstraction layer for Swift.
