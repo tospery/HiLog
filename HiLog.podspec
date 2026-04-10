@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HiLog'
-  s.version          = '1.2.0'
+  s.version          = '1.2.1'
   s.summary          = 'Logger abstraction layer'
   s.description      = <<-DESC
 						Logger abstraction layer for Swift.
@@ -24,5 +24,4 @@ Pod::Spec.new do |s|
   	ss.dependency 'HiLog/Core'
   	ss.dependency 'SwiftyBeaver', '~> 2.0'
   end
-  
 end

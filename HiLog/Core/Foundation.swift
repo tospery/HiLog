@@ -24,7 +24,7 @@ extension Module {
     public static var core: Module { "core" }
     public static var library: Module { "library" }
     public static var network: Module { "network" }
-    public static var database: Module { "database" }
+    public static var persistence: Module { "persistence" }
     public static var statistic: Module { "statistic" }
     public static var hiUIKit: Module { "HiUIKit" }
     public static var hiSwiftUI: Module { "HiSwiftUI" }

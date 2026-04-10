@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 71;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -26,8 +26,8 @@
 		99669DEA05F60B5B9E436EF38F96EC83 /* SwiftyBeaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFC0AF5CAC6E83211B78F133C9336DA /* SwiftyBeaver.swift */; };
 		B6980FE08619F5BADA8D987A9C503C39 /* SwiftyBeaver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C594020E54C20D93DB0A9BA0F10210 /* SwiftyBeaver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5466441028B4957A3CEB5DEE84E8301 /* HiLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 521372631B6665AA5CE0AD1072396331 /* HiLog-dummy.m */; };
-		D2439A494BB4AB310CA241CEEFB71F56 /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293B44C067262100694AA905074F122A /* DataType.swift */; };
-		E78A75B116F289DB4F9A4A9825758BCA /* SwiftyBeaver-SwiftyBeaver in Resources */ = {isa = PBXBuildFile; fileRef = 9215295657AC6ABB8D4E934AEA62EEF6 /* SwiftyBeaver-SwiftyBeaver */; };
+		D2439A494BB4AB310CA241CEEFB71F56 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293B44C067262100694AA905074F122A /* Foundation.swift */; };
+		E78A75B116F289DB4F9A4A9825758BCA /* SwiftyBeaver.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9215295657AC6ABB8D4E934AEA62EEF6 /* SwiftyBeaver.bundle */; };
 		EC9D1E31A440AD34930283869CDBA6AC /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D72498DC3276136692350E09360FF8 /* Filter.swift */; };
 		EF528EA6F283210D1DA2FDB9624083D6 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 40A9308E7423B051779C4D35F52D7FE5 /* PrivacyInfo.xcprivacy */; };
 		FA26F878EA1EDE10C65400D98736DC7C /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB57EBCE20E60EFAE75F41A40EF45567 /* Base64.swift */; };
@@ -69,15 +69,15 @@
 		1E5C37F2C76DE9F68AD95FD5205A04EC /* HiLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HiLog-prefix.pch"; sourceTree = "<group>"; };
 		22FBAC15A7573AFCDADDFA1DBA364260 /* HiLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HiLog.release.xcconfig; sourceTree = "<group>"; };
 		248E0A809E1FF3E03E565A305B933ED8 /* HiLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HiLog-Info.plist"; sourceTree = "<group>"; };
-		293B44C067262100694AA905074F122A /* DataType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataType.swift; path = HiLog/Core/DataType.swift; sourceTree = "<group>"; };
+		293B44C067262100694AA905074F122A /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = HiLog/Core/Foundation.swift; sourceTree = "<group>"; };
 		2C5193ADC653ED4E2048A3E330B24764 /* HiLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HiLog.debug.xcconfig; sourceTree = "<group>"; };
 		307806A09BA8771416EA401B1E66E6C4 /* HiLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HiLog.modulemap; sourceTree = "<group>"; };
 		30C594020E54C20D93DB0A9BA0F10210 /* SwiftyBeaver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-umbrella.h"; sourceTree = "<group>"; };
-		348746B5C13625735AC5E023FAB60981 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		348746B5C13625735AC5E023FAB60981 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3AC2D68CA55701D726493FFEA60CE440 /* FilterValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterValidator.swift; path = Sources/FilterValidator.swift; sourceTree = "<group>"; };
 		3B2913C28CEBEC6CCC244B72DB08F9A1 /* SwiftyBeaver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-prefix.pch"; sourceTree = "<group>"; };
-		40A9308E7423B051779C4D35F52D7FE5 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		40A9308E7423B051779C4D35F52D7FE5 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		4931A017854A39C0DF2BE01CE91DE5B6 /* ResourceBundle-SwiftyBeaver-SwiftyBeaver-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftyBeaver-SwiftyBeaver-Info.plist"; sourceTree = "<group>"; };
 		4DD93CD685E2A6D6CD68C1E2D9642FC6 /* HiLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HiLog-umbrella.h"; sourceTree = "<group>"; };
 		521372631B6665AA5CE0AD1072396331 /* HiLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HiLog-dummy.m"; sourceTree = "<group>"; };
@@ -88,12 +88,12 @@
 		6308F32B35C5938E2B0877DA924CD1D6 /* FileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileDestination.swift; path = Sources/FileDestination.swift; sourceTree = "<group>"; };
 		6E58AE29C7C637678247BF7CE3B61488 /* Pods-HiLog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HiLog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		723D19EAAAF2DFD36C88547DEE7692BD /* SwiftyBeaver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyBeaver.modulemap; sourceTree = "<group>"; };
-		7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyBeaver; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D03D2E251E3D8D645569FA291B1200B /* GoogleCloudDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleCloudDestination.swift; path = Sources/GoogleCloudDestination.swift; sourceTree = "<group>"; };
 		801E5274FFE97FC2EBD429DA4C8394EF /* Pods-HiLog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HiLog_Example-umbrella.h"; sourceTree = "<group>"; };
 		82E4B03795D3D57093C15BE318BF9E75 /* Pods-HiLog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HiLog_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9215295657AC6ABB8D4E934AEA62EEF6 /* SwiftyBeaver-SwiftyBeaver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SwiftyBeaver-SwiftyBeaver"; path = SwiftyBeaver.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9215295657AC6ABB8D4E934AEA62EEF6 /* SwiftyBeaver.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyBeaver.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2D72498DC3276136692350E09360FF8 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
 		A92139491091C2A3877364254FF72C78 /* SwiftyBeaver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyBeaver-dummy.m"; sourceTree = "<group>"; };
 		BB57EBCE20E60EFAE75F41A40EF45567 /* Base64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base64.swift; path = Sources/Base64.swift; sourceTree = "<group>"; };
@@ -104,13 +104,13 @@
 		C536044F39A46C61B9790C911B934DD7 /* ConsoleProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConsoleProvider.swift; path = HiLog/Core/ConsoleProvider.swift; sourceTree = "<group>"; };
 		D46F51B4585ACD7934390CD2B2750609 /* Pods-HiLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiLog_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D4F4DC84DD2AB2FA4BA66196C204613F /* Pods-HiLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HiLog_Example.modulemap"; sourceTree = "<group>"; };
-		D5E1E7BF834BC47DDC7EFE8F6B919254 /* HiLog */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HiLog; path = HiLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E1E7BF834BC47DDC7EFE8F6B919254 /* HiLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HiLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFC0AF5CAC6E83211B78F133C9336DA /* SwiftyBeaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyBeaver.swift; path = Sources/SwiftyBeaver.swift; sourceTree = "<group>"; };
 		DF3CB96DEA5B0A5928CA159C23EFCE35 /* BaseDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseDestination.swift; path = Sources/BaseDestination.swift; sourceTree = "<group>"; };
-		E0B5F0585238101BD101077FF20D5D11 /* Pods-HiLog_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HiLog_Example"; path = Pods_HiLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E32C77281044123BF6818642C098D566 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E0B5F0585238101BD101077FF20D5D11 /* Pods_HiLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32C77281044123BF6818642C098D566 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EB992F54649F7EA012981931B0934BCE /* SwiftyBeaver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyBeaver.release.xcconfig; sourceTree = "<group>"; };
-		FAFA7041CF46054886D68F99C1E2B569 /* HiLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HiLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FAFA7041CF46054886D68F99C1E2B569 /* HiLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HiLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FB9B3B447F204FD9C1EE12977B36E6AB /* SwiftyBeaver-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyBeaver-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,7 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				C536044F39A46C61B9790C911B934DD7 /* ConsoleProvider.swift */,
-				293B44C067262100694AA905074F122A /* DataType.swift */,
+				293B44C067262100694AA905074F122A /* Foundation.swift */,
 				58058AD44D6489F8DEBF0DB93454F559 /* Logger.swift */,
 			);
 			name = Core;
@@ -186,10 +186,10 @@
 		39F1E14F9FA47E8FACE833E3D3177686 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5E1E7BF834BC47DDC7EFE8F6B919254 /* HiLog */,
-				E0B5F0585238101BD101077FF20D5D11 /* Pods-HiLog_Example */,
-				7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver */,
-				9215295657AC6ABB8D4E934AEA62EEF6 /* SwiftyBeaver-SwiftyBeaver */,
+				D5E1E7BF834BC47DDC7EFE8F6B919254 /* HiLog.framework */,
+				E0B5F0585238101BD101077FF20D5D11 /* Pods_HiLog_Example.framework */,
+				7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver.framework */,
+				9215295657AC6ABB8D4E934AEA62EEF6 /* SwiftyBeaver.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -244,7 +244,6 @@
 				05DB25C628A9EDE545EA1CE78ADCB95D /* Resources */,
 				D426BAC6E0A1D6D23814858FA770622B /* Support Files */,
 			);
-			name = SwiftyBeaver;
 			path = SwiftyBeaver;
 			sourceTree = "<group>";
 		};
@@ -373,7 +372,7 @@
 			);
 			name = SwiftyBeaver;
 			productName = SwiftyBeaver;
-			productReference = 7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver */;
+			productReference = 7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2343A0B9CCB1999BDAAAA02E77556D3B /* HiLog */ = {
@@ -392,7 +391,7 @@
 			);
 			name = HiLog;
 			productName = HiLog;
-			productReference = D5E1E7BF834BC47DDC7EFE8F6B919254 /* HiLog */;
+			productReference = D5E1E7BF834BC47DDC7EFE8F6B919254 /* HiLog.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		44FE1AF38BF7DF3E88AEEE6BD4DA40CD /* SwiftyBeaver-SwiftyBeaver */ = {
@@ -409,7 +408,7 @@
 			);
 			name = "SwiftyBeaver-SwiftyBeaver";
 			productName = SwiftyBeaver;
-			productReference = 9215295657AC6ABB8D4E934AEA62EEF6 /* SwiftyBeaver-SwiftyBeaver */;
+			productReference = 9215295657AC6ABB8D4E934AEA62EEF6 /* SwiftyBeaver.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		A80613E1BA4E4A6BE92D3BF31144AEA6 /* Pods-HiLog_Example */ = {
@@ -429,7 +428,7 @@
 			);
 			name = "Pods-HiLog_Example";
 			productName = Pods_HiLog_Example;
-			productReference = E0B5F0585238101BD101077FF20D5D11 /* Pods-HiLog_Example */;
+			productReference = E0B5F0585238101BD101077FF20D5D11 /* Pods_HiLog_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -450,8 +449,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 39F1E14F9FA47E8FACE833E3D3177686 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -469,7 +466,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E78A75B116F289DB4F9A4A9825758BCA /* SwiftyBeaver-SwiftyBeaver in Resources */,
+				E78A75B116F289DB4F9A4A9825758BCA /* SwiftyBeaver.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,7 +532,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				843D3A5B136F1AE83F24B1CC2416FCC3 /* ConsoleProvider.swift in Sources */,
-				D2439A494BB4AB310CA241CEEFB71F56 /* DataType.swift in Sources */,
+				D2439A494BB4AB310CA241CEEFB71F56 /* Foundation.swift in Sources */,
 				C5466441028B4957A3CEB5DEE84E8301 /* HiLog-dummy.m in Sources */,
 				2D2EAD495D83D5B0DDFEEF011AF9E5B1 /* Logger.swift in Sources */,
 				259721C407B09C50626E82B4B0223007 /* SwiftyBeaverProvider.swift in Sources */,

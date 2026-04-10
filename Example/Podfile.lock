@@ -1,9 +1,9 @@
 PODS:
-  - HiLog (1.0.0):
-    - HiLog/Core (= 1.0.0)
-    - HiLog/SwiftyBeaver (= 1.0.0)
-  - HiLog/Core (1.0.0)
-  - HiLog/SwiftyBeaver (1.0.0):
+  - HiLog (1.2.0):
+    - HiLog/Core (= 1.2.0)
+    - HiLog/SwiftyBeaver (= 1.2.0)
+  - HiLog/Core (1.2.0)
+  - HiLog/SwiftyBeaver (1.2.0):
     - HiLog/Core
     - SwiftyBeaver (~> 2.0)
   - SwiftyBeaver (2.1.1)
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HiLog: 39ea2b4101cb6def7932cac019312e6dd6579cac
+  HiLog: 862c2c4573a094ddbfb6d40f52591f28f00ecb91
   SwiftyBeaver: ade157e4f857812e7d7f15f2e3396bb8733f8a1c
 
 PODFILE CHECKSUM: c16db72788d9c6d998051d32662274dc4adf9ddf
